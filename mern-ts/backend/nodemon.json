@@ -1,0 +1,13 @@
+{
+  "signal": "SIGTERM",
+  "env": {
+    "NODE_ENV": "development",
+    "DB_USER": "frontend-client",
+    "DB_PASSWORD": "react-app",
+    "DB_NAME": "placeDB",
+    "GOOGLE_API_KEY": "AIzaSyArwZ4OtVZVOj-romW_U5GHps75FpvnF5s",
+    "JWT_PRIVATE_KEY": "my_secret_key_for_mern_app"
+  },
+  "ext": "ts",
+  "exec": "ts-node -- src/server.ts"
+}

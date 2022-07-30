@@ -1,0 +1,13 @@
+this was the course project in the mongoDB course on academind.com
+
+in this project, the react frontend and node app were given
+I setup my cluster and database on MongoDB Atlas, created admin and read/write only users for the DB
+added connection to DB in the node driver, using the read/write DB user,
+added ability to store products created in frontend to a collection in the DB - insertOne,
+added ability to fetch data from DB to display in frontend - find (returns pointer), forEach,
+added ability to fetch a single item from the DB, findOne,
+added skip,limit in the fetch display only certain items from DB to create pagination
+added ability to create/store front-end user accounts in a new collection - insertOne
+added ability to fetch user to create sign-in for frontend, findOne
+added a unique index for the user collection so that duplicate users - same email - cannot be created
+
